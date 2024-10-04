@@ -1,3 +1,41 @@
+header {
+    background-color: black;
+    width: 101%;
+    margin: -60px 0px 0px 0px;
+    position: fixed;
+    
+}
+
+
+header ul {
+    list-style: none;
+    
+}
+header ul li {
+    display: inline-block;
+    padding: 5px 3%;
+    transition: all 0.3s;
+    
+
+ 
+    
+}
+header ul li:hover {
+    box-shadow: -5px -1px 0px rgb(211, 197, 85);
+    
+}
+header ul li a {
+    text-decoration: none;
+    color: rgb(134, 107, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    
+    margin-top: 60px;
+}
+
+
 
 img {
     width: 100%;
@@ -7,32 +45,54 @@ img {
     
 }
 .img2 {
-    width:980px;
-    margin:110px 0px 0px 400px;
+    width:64%;
+    margin:6% 26%;
+    opacity:50%;
+
 }
 
 button {
     position:absolute;
+    margin: 20% 46%;
+    
+    background: none;
+    border-style: none;
+    z-index: -1;
     
     
+}
+.btn-switch {
+    margin-left: -5px;
+    border-radius: 5px;
+    width:150%;
+    opacity: 70%;
+    
+}
+.btn-switch:hover {
+    box-shadow: 0px 0px 1px white;
+    opacity: 100%;
 }
 .btn1 {
     position: absolute;
-    width: 50px;
-    height:60px;
-    background-color:none;
-    margin:390px 0px 0px 715px;
-    filter:opacity(0%)
+    width: 5%;
+    height:20%;
+    
+    margin:19% 10%;
+    filter:opacity(0%);
+    border-style:none;
 }
 .the-light {
-    width:80px;
-    margin: 370px 0px 0px 700px;
+    width:5%;
+    margin: 18% 10%;
     position: absolute;
     z-index: -5;
+    filter:opacity(50%);
 }
+
 .light-brightness {
-    width:500px;
-    margin: 370px 0px 0px 493px;
+    width:30%;
+    margin: 18% -2.28%;
+    filter:opacity(50%);
     
 }
 
@@ -40,100 +100,59 @@ button {
 
 
 
-/*
-.img1 {
-    width:100%;
-    height:600px;
-    position: absolute;
-    filter: contrast(80px);
-    filter: brightness(70%);
-}
-.window1 {
-    width:40px;
-    height:40px;
-    margin:240px 0px 0px 460px;
-    
-}
-.window2 {
-    width:50px;
-    height:50px;
-    margin:200px 0px 0px 820px;
-    
-}
-.window3 {
-    width:60px;
-    height:60px;
-    margin:140px 0px 0px 1220px;
-    
-}
-
-.door1 {
-    width:60px;
-    height:140px;
-    margin:340px 0px 0px 450px;
-    
-}
-.door2 {
-    width:70px;
-    height:140px;
-    margin:320px 0px 0px 810px;
-    
-}
-.door3 {
-    width:80px;
-    height:160px;
-    margin:280px 0px 0px 1210px;
-    
-}
-
-
-
-*/
 
 
 .ground {
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top:600px;
-    width: 100%;
-    height: 328px;
-    z-index: -6;
     
-  }
+    width: 100%;
+    height: 1800px;
+    z-index: -6;
+    margin-top: 40%;
+    
+}
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*
-.huse-1 {
-    width: 0;
-    height: 0;
-    border-left: 250px solid transparent;
-    border-right: 250px solid transparent;
-    border-bottom: 200px solid rgb(0, 0, 0);
-    margin-top: 150px;
-
-
+p {
+    color: #15a09b;
+    margin-top: 40px;
+    padding: 5%;
 }
-.huse-33 {
-    width:250px;
-    height:200px;
-    background-color:black;
-    margin-top:-200px;
-    border-top-left-radius: 20px;
+  
+.phara1 {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: justify;
+    line-height: 25px;
+    
 }
-*/
+h3 {
+    color:rgb(136, 136, 136);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 520px;
+    background-color: rgb(42, 42, 42);
+    position: absolute;
+    margin-top: 1890px;
+    z-index: -5;
+    opacity: 100%;
+    
+    
+}
+
+
